@@ -5,6 +5,20 @@ app_description = "rabsat aap"
 app_email = "sanaullah@sowaan.com"
 app_license = "mit"
 
+
+# doctype_js = {
+#     "Request for Quotation": "public/js/request_for_quotation.js"
+# }
+
+# doctype_js = {
+#     "Opportunity": "public/js/opportunity.js"
+# }
+doctype_js = {
+    "Request for Quotation": "public/js/request_for_quotation.js",
+    "Opportunity": "public/js/opportunity.js"
+}
+
+
 # Apps
 # ------------------
 
