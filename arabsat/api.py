@@ -194,11 +194,13 @@ def create_inquiry_from_opportunity(opportunity):
     
     # doc.insert(ignore_permissions=True)
     # frappe.db.commit()
-    doc.insert(ignore_permissions=True, ignore_mandatory=True)
-    frappe.db.commit()
+    # doc.insert(ignore_permissions=True, ignore_mandatory=True)
+    # frappe.db.commit()
+    doc.set("__islocal", 1)
+    doc.name = None
 
     
-    frappe.msgprint(f"Inquiry Form <b>{doc.name}</b> created successfully!")
+    # frappe.msgprint(f"Inquiry Form <b>{doc.name}</b> created successfully!")
 
 
     return doc
