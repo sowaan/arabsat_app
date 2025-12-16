@@ -18,6 +18,14 @@ doctype_js = {
     "Opportunity": "public/js/opportunity.js"
 }
 
+fixtures = [
+    {
+        "doctype": "Custom Field",
+        "filters": {"module": "Arabsat"}
+    
+    }
+]
+
 
 # Apps
 # ------------------
