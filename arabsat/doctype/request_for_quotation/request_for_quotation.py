@@ -70,5 +70,5 @@ def get_inquiry_items(inquiry_names, rfq_name=None):
                     "inquiry_reference": inquiry.name
                 })
 
-    frappe.msgprint(f"✅ Total items collected: {len(items)}")
+    frappe.msgprint(f"Total items collected: {len(items)}")
     return items
