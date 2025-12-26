@@ -14,7 +14,8 @@ app_license = "mit"
 #     "Opportunity": "public/js/opportunity.js"
 # }
 doctype_js = {
-    "Request for Quotation": "public/js/request_for_quotation.js",
+    "Request for Quotation": "doctype/request_for_quotation/request_for_quotation.js",
+    # "Request for Quotation": "public/js/request_for_quotation.js",
     "Opportunity": "public/js/opportunity.js"
 }
 
