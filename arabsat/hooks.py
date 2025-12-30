@@ -19,6 +19,12 @@ doctype_js = {
     "Opportunity": "public/js/opportunity.js"
 }
 
+doc_events = {
+    "Inquiry Form": {
+        "validate": "arabsat.doctype.inquiry_form.inquiry_form.sync_opportunity_items"
+    }
+}
+
 fixtures = [
     {
         "doctype": "Custom Field",

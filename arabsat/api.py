@@ -67,3 +67,4 @@ def create_inquiry_from_opportunity(opportunity):
     doc.name = None
 
     return doc
+
