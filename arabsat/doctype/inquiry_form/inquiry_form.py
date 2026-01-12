@@ -23,8 +23,7 @@ def sync_opportunity_items(doc, method=None):
         if not src:
             continue
 
-        if opp_item.qty != src.quantity or opp_item.rate != src.rate:
-            opp_item.qty = src.quantity
+        if  opp_item.rate != src.rate:            
             opp_item.rate = src.rate
             opp_item.amount = (src.quantity or 0) * (src.rate or 0)
             updated = True
